@@ -15,6 +15,12 @@
 		B92F1E3E23E40A4B0054A9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F1E3D23E40A4B0054A9A6 /* main.m */; };
 		B92F1E4823E40A4B0054A9A6 /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F1E4723E40A4B0054A9A6 /* CoreAnimationTests.m */; };
 		B92F1E5323E40A4B0054A9A6 /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F1E5223E40A4B0054A9A6 /* CoreAnimationUITests.m */; };
+		B92F1E6223E45B680054A9A6 /* KGWGenerateBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B92F1E6123E45B680054A9A6 /* KGWGenerateBasicAnimation.m */; };
+		B946AA3123E5C3F400A2BBB2 /* KGWMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3023E5C3F400A2BBB2 /* KGWMoveViewController.m */; };
+		B946AA3423E5C3FC00A2BBB2 /* KGWRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3323E5C3FC00A2BBB2 /* KGWRotationViewController.m */; };
+		B946AA3723E5C40C00A2BBB2 /* KGWScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3623E5C40C00A2BBB2 /* KGWScaleViewController.m */; };
+		B946AA3A23E5C41700A2BBB2 /* KGWOpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3923E5C41700A2BBB2 /* KGWOpacityViewController.m */; };
+		B946AA3D23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3C23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		B92F1E4E23E40A4B0054A9A6 /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92F1E5223E40A4B0054A9A6 /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		B92F1E5423E40A4B0054A9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92F1E6023E45B680054A9A6 /* KGWGenerateBasicAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWGenerateBasicAnimation.h; sourceTree = "<group>"; };
+		B92F1E6123E45B680054A9A6 /* KGWGenerateBasicAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWGenerateBasicAnimation.m; sourceTree = "<group>"; };
+		B946AA2F23E5C3F400A2BBB2 /* KGWMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWMoveViewController.h; sourceTree = "<group>"; };
+		B946AA3023E5C3F400A2BBB2 /* KGWMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWMoveViewController.m; sourceTree = "<group>"; };
+		B946AA3223E5C3FC00A2BBB2 /* KGWRotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWRotationViewController.h; sourceTree = "<group>"; };
+		B946AA3323E5C3FC00A2BBB2 /* KGWRotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWRotationViewController.m; sourceTree = "<group>"; };
+		B946AA3523E5C40C00A2BBB2 /* KGWScaleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWScaleViewController.h; sourceTree = "<group>"; };
+		B946AA3623E5C40C00A2BBB2 /* KGWScaleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWScaleViewController.m; sourceTree = "<group>"; };
+		B946AA3823E5C41700A2BBB2 /* KGWOpacityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWOpacityViewController.h; sourceTree = "<group>"; };
+		B946AA3923E5C41700A2BBB2 /* KGWOpacityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWOpacityViewController.m; sourceTree = "<group>"; };
+		B946AA3B23E5C42500A2BBB2 /* KGWBackgroundColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWBackgroundColorViewController.h; sourceTree = "<group>"; };
+		B946AA3C23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWBackgroundColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,7 @@
 				B92F1E2F23E40A490054A9A6 /* AppDelegate.m */,
 				B92F1E3123E40A490054A9A6 /* ViewController.h */,
 				B92F1E3223E40A490054A9A6 /* ViewController.m */,
+				B946AA3E23E5C43000A2BBB2 /* BasicAnimation */,
 				B92F1E3423E40A490054A9A6 /* Main.storyboard */,
 				B92F1E3723E40A4B0054A9A6 /* Assets.xcassets */,
 				B92F1E3923E40A4B0054A9A6 /* LaunchScreen.storyboard */,
@@ -130,6 +149,25 @@
 				B92F1E5423E40A4B0054A9A6 /* Info.plist */,
 			);
 			path = CoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		B946AA3E23E5C43000A2BBB2 /* BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B946AA2F23E5C3F400A2BBB2 /* KGWMoveViewController.h */,
+				B946AA3023E5C3F400A2BBB2 /* KGWMoveViewController.m */,
+				B946AA3223E5C3FC00A2BBB2 /* KGWRotationViewController.h */,
+				B946AA3323E5C3FC00A2BBB2 /* KGWRotationViewController.m */,
+				B946AA3523E5C40C00A2BBB2 /* KGWScaleViewController.h */,
+				B946AA3623E5C40C00A2BBB2 /* KGWScaleViewController.m */,
+				B946AA3823E5C41700A2BBB2 /* KGWOpacityViewController.h */,
+				B946AA3923E5C41700A2BBB2 /* KGWOpacityViewController.m */,
+				B946AA3B23E5C42500A2BBB2 /* KGWBackgroundColorViewController.h */,
+				B946AA3C23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m */,
+				B92F1E6023E45B680054A9A6 /* KGWGenerateBasicAnimation.h */,
+				B92F1E6123E45B680054A9A6 /* KGWGenerateBasicAnimation.m */,
+			);
+			path = BasicAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +232,7 @@
 		B92F1E2323E40A490054A9A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KGW;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "junjian_h@163.com";
 				TargetAttributes = {
@@ -262,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B946AA3423E5C3FC00A2BBB2 /* KGWRotationViewController.m in Sources */,
+				B946AA3D23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m in Sources */,
+				B946AA3123E5C3F400A2BBB2 /* KGWMoveViewController.m in Sources */,
+				B946AA3723E5C40C00A2BBB2 /* KGWScaleViewController.m in Sources */,
 				B92F1E3323E40A490054A9A6 /* ViewController.m in Sources */,
+				B92F1E6223E45B680054A9A6 /* KGWGenerateBasicAnimation.m in Sources */,
 				B92F1E3E23E40A4B0054A9A6 /* main.m in Sources */,
+				B946AA3A23E5C41700A2BBB2 /* KGWOpacityViewController.m in Sources */,
 				B92F1E3023E40A490054A9A6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
