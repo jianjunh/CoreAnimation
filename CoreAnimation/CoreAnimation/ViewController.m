@@ -32,6 +32,10 @@ static NSString *cellId = @"cellId";
  */
 @property (nonatomic,strong) NSArray *transitionAnimationList;
 
+/**
+ * 粒子动画列表
+ */
+@property (nonatomic,strong) NSArray *emitterAnimationList;
 
 @end
 
@@ -50,10 +54,11 @@ static NSString *cellId = @"cellId";
 
 - (void)commitInit {
     self.title = @"动画";
-    self.animationSectionList = @[@"基础动画",@"关键帧动画",@"过渡动画"];
+    self.animationSectionList = @[@"基础动画",@"关键帧动画",@"过渡动画",@"粒子动画"];
     self.basicAnimationList = @[@{@"name" : @"位移动画", @"VCName" : @"KGWMoveViewController"},@{@"name" : @"旋转动画", @"VCName" : @"KGWRotationViewController"},@{@"name" : @"缩放动画", @"VCName" : @"KGWScaleViewController"},@{@"name" : @"透明度动画", @"VCName" : @"KGWOpacityViewController"},@{@"name" : @"背景色动画", @"VCName" : @"KGWBackgroundColorViewController"}];
     self.keyframeAnimationList = @[@{@"name" : @"使用Values数组创建关键帧动画", @"VCName" : @"KGWKeyframeValuesViewController"},@{@"name" : @"使用path路径创建关键帧动画", @"VCName" : @"KGWKeyframePathViewController"},@{@"name" : @"使用values数组创建抖动关键帧动画", @"VCName" : @"KGWShakeViewController"},@{@"name" : @"基础动画和关键帧动画同时进行", @"VCName" : @"KGWSameTimeAnimationViewController"},@{@"name" : @"基础动画和关键帧动画连续进行", @"VCName" : @"KGWKGWContinuousAnimationViewController"}];
     self.transitionAnimationList = @[@{@"name" : @"转场动画", @"VCName" : @"KGWTransitionViewController"}];
+    self.emitterAnimationList = @[@{@"name" : @"红包雨动画", @"VCName" : @"KGWEmitterRedPacketViewController"},@{@"name" : @"抖音点赞动画", @"VCName" : @"KGWDouyinBlastViewController"}];
     
 }
 
@@ -75,6 +80,9 @@ static NSString *cellId = @"cellId";
             break;
         case 2:
             return self.transitionAnimationList.count;
+            break;
+        case 3:
+            return self.emitterAnimationList.count;
             break;
         default:
             break;
@@ -112,6 +120,14 @@ static NSString *cellId = @"cellId";
             return cell;
         }
             break;
+        case 3:
+        {
+            UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+            NSDictionary *dict = [self.emitterAnimationList objectAtIndex:indexPath.row];
+            cell.textLabel.text = [dict valueForKey:@"name"];
+            return cell;
+        }
+            break;
 
         default:
             break;
@@ -139,6 +155,14 @@ static NSString *cellId = @"cellId";
         case 2:
         {
             NSDictionary *dict = [self.transitionAnimationList objectAtIndex:indexPath.row];
+            NSString *VCName = [dict valueForKey:@"VCName"];
+            UIViewController *vc = [NSClassFromString(VCName) new];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:
+        {
+            NSDictionary *dict = [self.emitterAnimationList objectAtIndex:indexPath.row];
             NSString *VCName = [dict valueForKey:@"VCName"];
             UIViewController *vc = [NSClassFromString(VCName) new];
             [self.navigationController pushViewController:vc animated:YES];

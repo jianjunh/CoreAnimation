@@ -1,27 +1,26 @@
 //
-//  KGWMoveViewController.m
+//  KGWDouyinBlastViewController.m
 //  CoreAnimation
 //
-//  Created by junjian_h@163.com on 2020/2/1.
+//  Created by junjian_h@163.com on 2020/2/3.
 //  Copyright © 2020年 junjian_h@163.com. All rights reserved.
 //
 
-#import "KGWMoveViewController.h"
-#import "KGWGenerateBasicAnimation.h"
+#import "KGWDouyinBlastViewController.h"
+#import "KGWEmitterAnimation.h"
 
-@interface KGWMoveViewController ()
+@interface KGWDouyinBlastViewController ()
 
 @end
 
-@implementation KGWMoveViewController
+@implementation KGWDouyinBlastViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"位移";
+    self.title = @"抖音点赞动画";
     self.view.backgroundColor = [UIColor whiteColor];
-    [KGWGenerateBasicAnimation generateMoveAnimationWithSuperView:self.view];
-    CALayer *layer = [CALayer layer];
+    [KGWEmitterAnimation generateDouYinThumbEmitterAnimationWithSuperView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {

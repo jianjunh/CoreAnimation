@@ -30,6 +30,10 @@
 		B946AA5523E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5423E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m */; };
 		B946AA5923E7FDCD00A2BBB2 /* KGWTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5823E7FDCD00A2BBB2 /* KGWTransitionAnimation.m */; };
 		B946AA5C23E7FF0100A2BBB2 /* KGWTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5B23E7FF0100A2BBB2 /* KGWTransitionViewController.m */; };
+		B946AA6023E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5F23E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.m */; };
+		B946AA6323E83FA700A2BBB2 /* KGWDouyinBlastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA6223E83FA700A2BBB2 /* KGWDouyinBlastViewController.m */; };
+		B946AA6623E8403700A2BBB2 /* KGWEmitterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA6523E8403700A2BBB2 /* KGWEmitterAnimation.m */; };
+		B946AA6923E844A900A2BBB2 /* KGWDouYinThumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA6823E844A900A2BBB2 /* KGWDouYinThumbButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,14 @@
 		B946AA5823E7FDCD00A2BBB2 /* KGWTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWTransitionAnimation.m; sourceTree = "<group>"; };
 		B946AA5A23E7FF0100A2BBB2 /* KGWTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWTransitionViewController.h; sourceTree = "<group>"; };
 		B946AA5B23E7FF0100A2BBB2 /* KGWTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWTransitionViewController.m; sourceTree = "<group>"; };
+		B946AA5E23E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWEmitterRedPacketViewController.h; sourceTree = "<group>"; };
+		B946AA5F23E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWEmitterRedPacketViewController.m; sourceTree = "<group>"; };
+		B946AA6123E83FA700A2BBB2 /* KGWDouyinBlastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWDouyinBlastViewController.h; sourceTree = "<group>"; };
+		B946AA6223E83FA700A2BBB2 /* KGWDouyinBlastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWDouyinBlastViewController.m; sourceTree = "<group>"; };
+		B946AA6423E8403700A2BBB2 /* KGWEmitterAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWEmitterAnimation.h; sourceTree = "<group>"; };
+		B946AA6523E8403700A2BBB2 /* KGWEmitterAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWEmitterAnimation.m; sourceTree = "<group>"; };
+		B946AA6723E844A900A2BBB2 /* KGWDouYinThumbButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWDouYinThumbButton.h; sourceTree = "<group>"; };
+		B946AA6823E844A900A2BBB2 /* KGWDouYinThumbButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWDouYinThumbButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,7 @@
 				B946AA4C23E7EDFE00A2BBB2 /* AnimationGroup */,
 				B946AA5623E7FD3E00A2BBB2 /* TransitionAnimation */,
 				B92F1E3423E40A490054A9A6 /* Main.storyboard */,
+				B946AA5D23E83F6000A2BBB2 /* EmitterAnimation */,
 				B92F1E3723E40A4B0054A9A6 /* Assets.xcassets */,
 				B92F1E3923E40A4B0054A9A6 /* LaunchScreen.storyboard */,
 				B92F1E3C23E40A4B0054A9A6 /* Info.plist */,
@@ -237,6 +250,21 @@
 				B946AA5B23E7FF0100A2BBB2 /* KGWTransitionViewController.m */,
 			);
 			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		B946AA5D23E83F6000A2BBB2 /* EmitterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B946AA5E23E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.h */,
+				B946AA5F23E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.m */,
+				B946AA6123E83FA700A2BBB2 /* KGWDouyinBlastViewController.h */,
+				B946AA6223E83FA700A2BBB2 /* KGWDouyinBlastViewController.m */,
+				B946AA6423E8403700A2BBB2 /* KGWEmitterAnimation.h */,
+				B946AA6523E8403700A2BBB2 /* KGWEmitterAnimation.m */,
+				B946AA6723E844A900A2BBB2 /* KGWDouYinThumbButton.h */,
+				B946AA6823E844A900A2BBB2 /* KGWDouYinThumbButton.m */,
+			);
+			path = EmitterAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,10 +398,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B946AA6923E844A900A2BBB2 /* KGWDouYinThumbButton.m in Sources */,
 				B946AA5923E7FDCD00A2BBB2 /* KGWTransitionAnimation.m in Sources */,
 				B946AA5C23E7FF0100A2BBB2 /* KGWTransitionViewController.m in Sources */,
 				B946AA3423E5C3FC00A2BBB2 /* KGWRotationViewController.m in Sources */,
+				B946AA6023E83F9400A2BBB2 /* KGWEmitterRedPacketViewController.m in Sources */,
 				B946AA3D23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m in Sources */,
+				B946AA6623E8403700A2BBB2 /* KGWEmitterAnimation.m in Sources */,
 				B946AA3123E5C3F400A2BBB2 /* KGWMoveViewController.m in Sources */,
 				B946AA4823E7E91C00A2BBB2 /* KGWKeyframePathViewController.m in Sources */,
 				B946AA4523E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m in Sources */,
@@ -388,6 +419,7 @@
 				B946AA3A23E5C41700A2BBB2 /* KGWOpacityViewController.m in Sources */,
 				B946AA4B23E7EB9700A2BBB2 /* KGWShakeViewController.m in Sources */,
 				B92F1E3023E40A490054A9A6 /* AppDelegate.m in Sources */,
+				B946AA6323E83FA700A2BBB2 /* KGWDouyinBlastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

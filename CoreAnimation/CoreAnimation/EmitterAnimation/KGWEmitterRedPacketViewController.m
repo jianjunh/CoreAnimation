@@ -1,27 +1,26 @@
 //
-//  KGWMoveViewController.m
+//  KGWEmitterRedPacketViewController.m
 //  CoreAnimation
 //
-//  Created by junjian_h@163.com on 2020/2/1.
+//  Created by junjian_h@163.com on 2020/2/3.
 //  Copyright © 2020年 junjian_h@163.com. All rights reserved.
 //
 
-#import "KGWMoveViewController.h"
-#import "KGWGenerateBasicAnimation.h"
+#import "KGWEmitterRedPacketViewController.h"
+#import "KGWEmitterAnimation.h"
 
-@interface KGWMoveViewController ()
+@interface KGWEmitterRedPacketViewController ()
 
 @end
 
-@implementation KGWMoveViewController
+@implementation KGWEmitterRedPacketViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"位移";
+    self.title = @"红包雨动画";
     self.view.backgroundColor = [UIColor whiteColor];
-    [KGWGenerateBasicAnimation generateMoveAnimationWithSuperView:self.view];
-    CALayer *layer = [CALayer layer];
+    [KGWEmitterAnimation generateRedPacketEmitterAnimationWithSuperView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
