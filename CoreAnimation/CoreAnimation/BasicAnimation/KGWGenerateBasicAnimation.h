@@ -21,10 +21,40 @@ typedef enum : NSInteger {
 @interface KGWGenerateBasicAnimation : NSObject
 
 
+
+/**
+ 基础动画位移动画
+
+ @param superView 父视图
+ */
 + (void)generateMoveAnimationWithSuperView:(UIView *)superView;
-+ (void)generatiRotationAnimationWithSuperView:(UIView *)superView;;
-+ (void)generateScaleAnimationWithSuperView:(UIView *)superView;;
-+ (void)generateOpacityAnmationWithSuperView:(UIView *)superView;;
-+ (void)generateBackgroundColorAnmationWithSuperView:(UIView *)superView;;
+
+/**
+ 基础动画旋转动画
+ 
+ @param superView 父视图
+ */
++ (void)generatiRotationAnimationWithSuperView:(UIView *)superView;
+
+/**
+ 基础动画缩放动画
+ 
+ @param superView 父视图
+ */
++ (void)generateScaleAnimationWithSuperView:(UIView *)superView;
+
+/**
+ 基础动画透明度动画
+ 
+ @param superView 父视图
+ */
++ (void)generateOpacityAnmationWithSuperView:(UIView *)superView;
+
+/**
+ 基础动画背景色动画
+ 
+ @param superView 父视图
+ */
++ (void)generateBackgroundColorAnmationWithSuperView:(UIView *)superView;
 
 @end

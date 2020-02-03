@@ -40,7 +40,7 @@
     UIView *redView = [self createRedView];
     [superView addSubview:redView];
     CABasicAnimation *rotationAnimation = [self generateBasicAnimation];
-    rotationAnimation.keyPath = @"transform.rotation.z";
+    rotationAnimation.keyPath = @"transform.rotation";
     rotationAnimation.toValue = [NSNumber numberWithDouble:M_PI];
     rotationAnimation.duration = 3;
     rotationAnimation.repeatCount = MAXFLOAT;

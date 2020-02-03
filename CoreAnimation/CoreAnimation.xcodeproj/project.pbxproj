@@ -21,6 +21,13 @@
 		B946AA3723E5C40C00A2BBB2 /* KGWScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3623E5C40C00A2BBB2 /* KGWScaleViewController.m */; };
 		B946AA3A23E5C41700A2BBB2 /* KGWOpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3923E5C41700A2BBB2 /* KGWOpacityViewController.m */; };
 		B946AA3D23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA3C23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m */; };
+		B946AA4223E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA4123E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.m */; };
+		B946AA4523E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA4423E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m */; };
+		B946AA4823E7E91C00A2BBB2 /* KGWKeyframePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA4723E7E91C00A2BBB2 /* KGWKeyframePathViewController.m */; };
+		B946AA4B23E7EB9700A2BBB2 /* KGWShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA4A23E7EB9700A2BBB2 /* KGWShakeViewController.m */; };
+		B946AA4F23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA4E23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.m */; };
+		B946AA5223E7EE9200A2BBB2 /* KGWAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5123E7EE9200A2BBB2 /* KGWAnimationGroup.m */; };
+		B946AA5523E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B946AA5423E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +76,20 @@
 		B946AA3923E5C41700A2BBB2 /* KGWOpacityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWOpacityViewController.m; sourceTree = "<group>"; };
 		B946AA3B23E5C42500A2BBB2 /* KGWBackgroundColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWBackgroundColorViewController.h; sourceTree = "<group>"; };
 		B946AA3C23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWBackgroundColorViewController.m; sourceTree = "<group>"; };
+		B946AA4023E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWGenerateKeyframeAnimation.h; sourceTree = "<group>"; };
+		B946AA4123E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWGenerateKeyframeAnimation.m; sourceTree = "<group>"; };
+		B946AA4323E7245A00A2BBB2 /* KGWKeyframeValuesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWKeyframeValuesViewController.h; sourceTree = "<group>"; };
+		B946AA4423E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWKeyframeValuesViewController.m; sourceTree = "<group>"; };
+		B946AA4623E7E91B00A2BBB2 /* KGWKeyframePathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWKeyframePathViewController.h; sourceTree = "<group>"; };
+		B946AA4723E7E91C00A2BBB2 /* KGWKeyframePathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWKeyframePathViewController.m; sourceTree = "<group>"; };
+		B946AA4923E7EB9700A2BBB2 /* KGWShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWShakeViewController.h; sourceTree = "<group>"; };
+		B946AA4A23E7EB9700A2BBB2 /* KGWShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWShakeViewController.m; sourceTree = "<group>"; };
+		B946AA4D23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWSameTimeAnimationViewController.h; sourceTree = "<group>"; };
+		B946AA4E23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWSameTimeAnimationViewController.m; sourceTree = "<group>"; };
+		B946AA5023E7EE9200A2BBB2 /* KGWAnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWAnimationGroup.h; sourceTree = "<group>"; };
+		B946AA5123E7EE9200A2BBB2 /* KGWAnimationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWAnimationGroup.m; sourceTree = "<group>"; };
+		B946AA5323E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWKGWContinuousAnimationViewController.h; sourceTree = "<group>"; };
+		B946AA5423E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWKGWContinuousAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +145,8 @@
 				B92F1E3123E40A490054A9A6 /* ViewController.h */,
 				B92F1E3223E40A490054A9A6 /* ViewController.m */,
 				B946AA3E23E5C43000A2BBB2 /* BasicAnimation */,
+				B946AA3F23E71E1200A2BBB2 /* KeyframeAnimation */,
+				B946AA4C23E7EDFE00A2BBB2 /* AnimationGroup */,
 				B92F1E3423E40A490054A9A6 /* Main.storyboard */,
 				B92F1E3723E40A4B0054A9A6 /* Assets.xcassets */,
 				B92F1E3923E40A4B0054A9A6 /* LaunchScreen.storyboard */,
@@ -168,6 +191,34 @@
 				B92F1E6123E45B680054A9A6 /* KGWGenerateBasicAnimation.m */,
 			);
 			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		B946AA3F23E71E1200A2BBB2 /* KeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B946AA4023E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.h */,
+				B946AA4123E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.m */,
+				B946AA4323E7245A00A2BBB2 /* KGWKeyframeValuesViewController.h */,
+				B946AA4423E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m */,
+				B946AA4623E7E91B00A2BBB2 /* KGWKeyframePathViewController.h */,
+				B946AA4723E7E91C00A2BBB2 /* KGWKeyframePathViewController.m */,
+				B946AA4923E7EB9700A2BBB2 /* KGWShakeViewController.h */,
+				B946AA4A23E7EB9700A2BBB2 /* KGWShakeViewController.m */,
+			);
+			path = KeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		B946AA4C23E7EDFE00A2BBB2 /* AnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B946AA4D23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.h */,
+				B946AA4E23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.m */,
+				B946AA5323E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.h */,
+				B946AA5423E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m */,
+				B946AA5023E7EE9200A2BBB2 /* KGWAnimationGroup.h */,
+				B946AA5123E7EE9200A2BBB2 /* KGWAnimationGroup.m */,
+			);
+			path = AnimationGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,11 +355,18 @@
 				B946AA3423E5C3FC00A2BBB2 /* KGWRotationViewController.m in Sources */,
 				B946AA3D23E5C42500A2BBB2 /* KGWBackgroundColorViewController.m in Sources */,
 				B946AA3123E5C3F400A2BBB2 /* KGWMoveViewController.m in Sources */,
+				B946AA4823E7E91C00A2BBB2 /* KGWKeyframePathViewController.m in Sources */,
+				B946AA4523E7245A00A2BBB2 /* KGWKeyframeValuesViewController.m in Sources */,
 				B946AA3723E5C40C00A2BBB2 /* KGWScaleViewController.m in Sources */,
 				B92F1E3323E40A490054A9A6 /* ViewController.m in Sources */,
 				B92F1E6223E45B680054A9A6 /* KGWGenerateBasicAnimation.m in Sources */,
+				B946AA4F23E7EE3900A2BBB2 /* KGWSameTimeAnimationViewController.m in Sources */,
 				B92F1E3E23E40A4B0054A9A6 /* main.m in Sources */,
+				B946AA4223E7217100A2BBB2 /* KGWGenerateKeyframeAnimation.m in Sources */,
+				B946AA5223E7EE9200A2BBB2 /* KGWAnimationGroup.m in Sources */,
+				B946AA5523E7F47E00A2BBB2 /* KGWKGWContinuousAnimationViewController.m in Sources */,
 				B946AA3A23E5C41700A2BBB2 /* KGWOpacityViewController.m in Sources */,
+				B946AA4B23E7EB9700A2BBB2 /* KGWShakeViewController.m in Sources */,
 				B92F1E3023E40A490054A9A6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
