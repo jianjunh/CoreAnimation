@@ -88,14 +88,10 @@ Pod::Spec.new do |s|
   #
 
  
- # if ENV['IS_SOURCE'] || ENV["#{s.name}_SOURCE"]
-    s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
+# s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
- # else
     s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
- # end
   # s.public_header_files = "Classes/**/*.h"
-  s.preserve_paths = "CoreAnimation/Products/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
