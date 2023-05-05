@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-    s.vendored_frameworks = "Products/TestSDK.framework"
+    s.vendored_frameworks = "CoreAnimation/CoreAnimation/Products/TestSDK.framework"
   # s.public_header_files = "Classes/**/*.h"
 
 
