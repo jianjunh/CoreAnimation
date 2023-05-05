@@ -87,12 +87,15 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- 
-# s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
-    s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
-  # s.public_header_files = "Classes/**/*.h"
 
+ if ENV['IS_SOURCE'] || ENV["#{s.name}_SOURCE"]
+   # s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
+ else
+    s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
+ end
+  # s.public_header_files = "Classes/**/*.h"
+ # s.preserve_paths = "CoreAnimation/Products/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
