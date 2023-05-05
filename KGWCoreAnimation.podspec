@@ -95,6 +95,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
  end
   # s.public_header_files = "Classes/**/*.h"
+  s.preserve_paths = "CoreAnimation/Products/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -108,7 +109,6 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
