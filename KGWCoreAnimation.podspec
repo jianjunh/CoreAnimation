@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KGWCoreAnimation"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "This is my first own cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,9 +87,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
+ 
+ if ENV['IS_SOURCE'] || ENV["#{s.name}_SOURCE"]
+    s.source_files  = "CoreAnimation/CoreAnimation/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
+ else
     s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
+ end
   # s.public_header_files = "Classes/**/*.h"
 
 
