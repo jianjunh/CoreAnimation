@@ -98,10 +98,10 @@ Pod::Spec.new do |s|
 	puts '-------------------------------------------------------------------'
     puts 'Notice: is binary now'
     puts '-------------------------------------------------------------------'
-    s.vendored_frameworks = "CoreAnimation/Products/TestSDK.framework"
+    s.vendored_frameworks = "CoreAnimation/Products1/TestSDK.framework"
  end
   # s.public_header_files = "Classes/**/*.h"
-  # s.preserve_paths = "CoreAnimation/Products/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
+  # s.preserve_paths = "CoreAnimation/Products1/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

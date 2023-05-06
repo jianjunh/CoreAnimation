@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+ use_frameworks!
+# 忽略警告
+
+#plugin 'cocoapods-imy-bin'
+#use_binaries!
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+
+target 'CoreAnimation' do
+  
+end
+
+target 'TestSDK' do
+    pod 'AFNetworking/Serialization', '3.2.1'
+end
+

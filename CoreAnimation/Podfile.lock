@@ -1,0 +1,16 @@
+PODS:
+  - AFNetworking/Serialization (3.2.1)
+
+DEPENDENCIES:
+  - AFNetworking/Serialization (= 3.2.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+
+SPEC CHECKSUMS:
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
+
+PODFILE CHECKSUM: 73763e66d5845f2a0cd27385d7e18830a91988b9
+
+COCOAPODS: 1.12.0
