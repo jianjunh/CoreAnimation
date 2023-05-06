@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-# TODO: 在这里引入TestSDK的文件测试，类似于汇丰的那些example来测试，TestSDK是真正作为SDK输出给别人使用
+// TODO: 在这里引入TestSDK的文件测试，类似于汇丰的那些example来测试，TestSDK是真正作为SDK输出给别人使用
 @interface AppDelegate ()
 
 @end
