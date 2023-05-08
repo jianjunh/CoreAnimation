@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KGWCoreAnimation"
-  s.version      = "0.2.5"
+  s.version      = "0.2.6"
   s.summary      = "This is my first own cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.2.5" }
+  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.2.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,6 +138,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "AFNetworking/Serialization", "3.2.1"
+   s.dependency "AFNetworking/Serialization", "3.2.1"
 
 end
