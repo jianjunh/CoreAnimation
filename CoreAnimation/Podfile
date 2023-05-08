@@ -11,10 +11,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 inhibit_all_warnings!
 
 target 'CoreAnimation' do
-  
+  pod 'AFNetworking/Serialization', '3.2.1'
 end
 
 target 'TestSDK' do
-    pod 'AFNetworking/Serialization', '3.2.1'
+#    pod 'AFNetworking/Serialization', '3.2.1'
 end
 

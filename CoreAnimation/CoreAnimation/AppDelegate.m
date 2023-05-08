@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
+#import <AFNetworking/AFURLRequestSerialization.h>
 // TODO: 在这里引入TestSDK的文件测试，类似于汇丰的那些example来测试，TestSDK是真正作为SDK输出给别人使用
 @interface AppDelegate ()
 
@@ -22,7 +22,8 @@
     ViewController *rootVC = [ViewController new];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
     self.window.rootViewController = nav;
-    
+    AFHTTPRequestSerializer *serializer = [[AFHTTPRequestSerializer alloc] init];
+    NSLog(@"----kgw----%@",serializer);
     return YES;
 }
 
