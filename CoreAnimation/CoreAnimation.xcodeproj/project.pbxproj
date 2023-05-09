@@ -40,8 +40,8 @@
 		EB10AB532A0409C600F33677 /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB10AB4C2A0409C600F33677 /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB10AB5A2A0409E900F33677 /* KGWPrintMyName.h in Headers */ = {isa = PBXBuildFile; fileRef = EB10AB582A0409E900F33677 /* KGWPrintMyName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB10AB5B2A0409E900F33677 /* KGWPrintMyName.m in Sources */ = {isa = PBXBuildFile; fileRef = EB10AB592A0409E900F33677 /* KGWPrintMyName.m */; };
-		EB87C82D2A0A8F8200744282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C82B2A0A8F8200744282 /* AppDelegate.m */; };
 		EB87C8302A0A8FC300744282 /* KGWMoveViewController+TestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C82F2A0A8FC300744282 /* KGWMoveViewController+TestCategory.m */; };
+		EB87C8332A0A998100744282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C8312A0A998000744282 /* AppDelegate.m */; };
 		EB94A59C2A063F4C00AB839C /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB94A59B2A063F4C00AB839C /* TestSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,10 +143,10 @@
 		EB10AB4E2A0409C600F33677 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		EB10AB582A0409E900F33677 /* KGWPrintMyName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWPrintMyName.h; sourceTree = "<group>"; };
 		EB10AB592A0409E900F33677 /* KGWPrintMyName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWPrintMyName.m; sourceTree = "<group>"; };
-		EB87C82B2A0A8F8200744282 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB87C82C2A0A8F8200744282 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB87C82E2A0A8FC300744282 /* KGWMoveViewController+TestCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KGWMoveViewController+TestCategory.h"; sourceTree = "<group>"; };
 		EB87C82F2A0A8FC300744282 /* KGWMoveViewController+TestCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KGWMoveViewController+TestCategory.m"; sourceTree = "<group>"; };
+		EB87C8312A0A998000744282 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB87C8322A0A998100744282 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB94A59B2A063F4C00AB839C /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
 		ED127CA41DF1508CD5EEEBBD /* Pods_TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA3D85A5A0DB1A43211BDF /* Pods-CoreAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimation.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimation/Pods-CoreAnimation.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,8 +192,6 @@
 		B92F1E2223E40A490054A9A6 = {
 			isa = PBXGroup;
 			children = (
-				EB87C82C2A0A8F8200744282 /* AppDelegate.h */,
-				EB87C82B2A0A8F8200744282 /* AppDelegate.m */,
 				B92F1E2D23E40A490054A9A6 /* CoreAnimation */,
 				B92F1E4623E40A4B0054A9A6 /* CoreAnimationTests */,
 				B92F1E5123E40A4B0054A9A6 /* CoreAnimationUITests */,
@@ -219,6 +217,8 @@
 		B92F1E2D23E40A490054A9A6 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				EB87C8322A0A998100744282 /* AppDelegate.h */,
+				EB87C8312A0A998000744282 /* AppDelegate.m */,
 				B92F1E3123E40A490054A9A6 /* ViewController.h */,
 				B92F1E3223E40A490054A9A6 /* ViewController.m */,
 				B946AA3E23E5C43000A2BBB2 /* BasicAnimation */,
@@ -607,7 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB87C82D2A0A8F8200744282 /* AppDelegate.m in Sources */,
+				EB87C8332A0A998100744282 /* AppDelegate.m in Sources */,
 				EB87C8302A0A8FC300744282 /* KGWMoveViewController+TestCategory.m in Sources */,
 				B946AA6923E844A900A2BBB2 /* KGWDouYinThumbButton.m in Sources */,
 				B946AA5923E7FDCD00A2BBB2 /* KGWTransitionAnimation.m in Sources */,
