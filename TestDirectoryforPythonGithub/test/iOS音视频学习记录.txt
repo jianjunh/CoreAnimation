@@ -1,0 +1,8 @@
+iOS 提取视频中音频数据，背景音乐https://www.jianshu.com/p/b9983c35d374
+iOS 文字转语音 AVSpeechSynthesizer https://www.jianshu.com/p/709ede9f8bc7
+scenekit 实现3D看视频
+美颜https://www.jianshu.com/p/4646894245ba
+给相机添加滤镜https://www.jianshu.com/p/343c88b15445
+在直播应用中添加Faceu效果 可以加图片盖住人脸，类似直播中加猪头的那种https://www.jianshu.com/p/ba1f79f8f6fa
+一步步搭建视频直播系统，基于LFLiveKit＋ijkplayer＋rtmp（iOS端）https://www.jianshu.com/p/30595a5bff42
+iOS FFmpeg实现本地录像MP4 https://www.jianshu.com/p/af01d63ea128
