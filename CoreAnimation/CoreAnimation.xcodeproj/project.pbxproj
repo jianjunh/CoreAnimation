@@ -40,6 +40,8 @@
 		EB10AB532A0409C600F33677 /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB10AB4C2A0409C600F33677 /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB10AB5A2A0409E900F33677 /* KGWPrintMyName.h in Headers */ = {isa = PBXBuildFile; fileRef = EB10AB582A0409E900F33677 /* KGWPrintMyName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB10AB5B2A0409E900F33677 /* KGWPrintMyName.m in Sources */ = {isa = PBXBuildFile; fileRef = EB10AB592A0409E900F33677 /* KGWPrintMyName.m */; };
+		EB3A975F2A0FD5A50023D952 /* KGWPrintMyName+Test.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3A975D2A0FD5A50023D952 /* KGWPrintMyName+Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3A97602A0FD5A50023D952 /* KGWPrintMyName+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3A975E2A0FD5A50023D952 /* KGWPrintMyName+Test.m */; };
 		EB87C8302A0A8FC300744282 /* KGWMoveViewController+TestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C82F2A0A8FC300744282 /* KGWMoveViewController+TestCategory.m */; };
 		EB87C8332A0A998100744282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C8312A0A998000744282 /* AppDelegate.m */; };
 		EB94A59C2A063F4C00AB839C /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB94A59B2A063F4C00AB839C /* TestSDK.framework */; };
@@ -143,6 +145,8 @@
 		EB10AB4E2A0409C600F33677 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		EB10AB582A0409E900F33677 /* KGWPrintMyName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWPrintMyName.h; sourceTree = "<group>"; };
 		EB10AB592A0409E900F33677 /* KGWPrintMyName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWPrintMyName.m; sourceTree = "<group>"; };
+		EB3A975D2A0FD5A50023D952 /* KGWPrintMyName+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KGWPrintMyName+Test.h"; sourceTree = "<group>"; };
+		EB3A975E2A0FD5A50023D952 /* KGWPrintMyName+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KGWPrintMyName+Test.m"; sourceTree = "<group>"; };
 		EB87C82E2A0A8FC300744282 /* KGWMoveViewController+TestCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KGWMoveViewController+TestCategory.h"; sourceTree = "<group>"; };
 		EB87C82F2A0A8FC300744282 /* KGWMoveViewController+TestCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KGWMoveViewController+TestCategory.m"; sourceTree = "<group>"; };
 		EB87C8312A0A998000744282 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -354,6 +358,8 @@
 				EB10AB4E2A0409C600F33677 /* TestSDK.h */,
 				EB10AB582A0409E900F33677 /* KGWPrintMyName.h */,
 				EB10AB592A0409E900F33677 /* KGWPrintMyName.m */,
+				EB3A975D2A0FD5A50023D952 /* KGWPrintMyName+Test.h */,
+				EB3A975E2A0FD5A50023D952 /* KGWPrintMyName+Test.m */,
 			);
 			path = TestSDK;
 			sourceTree = "<group>";
@@ -374,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB10AB4F2A0409C600F33677 /* TestSDK.h in Headers */,
+				EB3A975F2A0FD5A50023D952 /* KGWPrintMyName+Test.h in Headers */,
 				EB10AB5A2A0409E900F33677 /* KGWPrintMyName.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,6 +660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3A97602A0FD5A50023D952 /* KGWPrintMyName+Test.m in Sources */,
 				EB10AB5B2A0409E900F33677 /* KGWPrintMyName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/KGWPrintMyName+Test.h</key>
+		<data>
+		VnyqQAJ66kRwlR0bqTs9EAfgjxk=
+		</data>
 		<key>Headers/KGWPrintMyName.h</key>
 		<data>
 		z2QKG/yHMusTb/I+XoYpXqLRuws=
 		</data>
 		<key>Headers/TestSDK.h</key>
 		<data>
-		hrdHc9nGJ0FZzBDIPy1f8qk21YQ=
+		h7QMXkPmYcLILsTbzBvXw7xpzg8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,6 +27,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/KGWPrintMyName+Test.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VnyqQAJ66kRwlR0bqTs9EAfgjxk=
+			</data>
+			<key>hash2</key>
+			<data>
+			LbWaJH5eVDcc/oul/+1DlC2P2nrYPdGwI5cuRO8+c6Y=
+			</data>
+		</dict>
 		<key>Headers/KGWPrintMyName.h</key>
 		<dict>
 			<key>hash</key>
@@ -38,11 +53,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hrdHc9nGJ0FZzBDIPy1f8qk21YQ=
+			h7QMXkPmYcLILsTbzBvXw7xpzg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N3ee8w8McCrORAfcNnefji6BZ08Dhi6qRpy0Pt3L3Cw=
+			ep0mf4Eb59wkgvW+/ZMZkAEL4aB+VhH8szSI2Rxe26g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
