@@ -21,7 +21,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"%s",__func__);
     NSLog(@"%s",__func__);
-    NSLog(@"%s",__func__);
     // Override point for customization after application launch.
     ViewController *rootVC = [ViewController new];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
