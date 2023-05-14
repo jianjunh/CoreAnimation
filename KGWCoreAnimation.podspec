@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KGWCoreAnimation"
-  s.version      = "0.3.1"
+  s.version      = "0.3.3"
   s.summary      = "This is my first own cocoapods."
 
   # This description is used to generate tags and improve search results.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.3.1" }
+  s.source       = { :git => "https://github.com/jianjunh/CoreAnimation.git", :tag => "0.3.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,10 +98,12 @@ Pod::Spec.new do |s|
 	puts '-------------------------------------------------------------------'
     puts 'Notice: is binary now'
     puts '-------------------------------------------------------------------'
-    s.vendored_frameworks = "CoreAnimation/Products1/TestSDK.framework"
+   # s.vendored_frameworks = "CoreAnimation/Products1/TestSDK.framework"
+	s.source_files = "CoreAnimation/Products1/TestLib/include/*.{h}"
+	s.vendored_libraries = "CoreAnimation/Products1/TestLib/libStaticLibraryTest.a"
  end
   # s.public_header_files = "Classes/**/*.h"
-   s.preserve_paths = "CoreAnimation/Products1/TestSDK.framework", "CoreAnimation/CoreAnimation/**/*.{h,m}"
+   s.preserve_paths = "CoreAnimation/Products1/TestLib/libStaticLibraryTest.a", "CoreAnimation/CoreAnimation/**/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

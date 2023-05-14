@@ -45,6 +45,13 @@
 		EB87C8302A0A8FC300744282 /* KGWMoveViewController+TestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C82F2A0A8FC300744282 /* KGWMoveViewController+TestCategory.m */; };
 		EB87C8332A0A998100744282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87C8312A0A998000744282 /* AppDelegate.m */; };
 		EB94A59C2A063F4C00AB839C /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB94A59B2A063F4C00AB839C /* TestSDK.framework */; };
+		EBBF2AE62A10C068005A3C1A /* StaticLibraryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBF2AE52A10C068005A3C1A /* StaticLibraryTest.m */; };
+		EBBF2AE72A10C068005A3C1A /* StaticLibraryTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBBF2AE42A10C068005A3C1A /* StaticLibraryTest.h */; };
+		EBBF2AED2A10C096005A3C1A /* KGWStaticLibraryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBF2AEC2A10C096005A3C1A /* KGWStaticLibraryObject.m */; };
+		EBBF2AF02A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBF2AEF2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.m */; };
+		EBBF2AF22A10C89E005A3C1A /* KGWStaticLibraryObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBBF2AEB2A10C096005A3C1A /* KGWStaticLibraryObject.h */; };
+		EBBF2AF32A10C8A5005A3C1A /* KGWStaticLibraryObject+CategoryTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBBF2AEE2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.h */; };
+		EBBF2AF92A10CA52005A3C1A /* libStaticLibraryTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBF2AF82A10CA52005A3C1A /* libStaticLibraryTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +88,18 @@
 				EB10AB532A0409C600F33677 /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBF2AE02A10C068005A3C1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EBBF2AF32A10C8A5005A3C1A /* KGWStaticLibraryObject+CategoryTest.h in CopyFiles */,
+				EBBF2AF22A10C89E005A3C1A /* KGWStaticLibraryObject.h in CopyFiles */,
+				EBBF2AE72A10C068005A3C1A /* StaticLibraryTest.h in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -152,6 +171,17 @@
 		EB87C8312A0A998000744282 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB87C8322A0A998100744282 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB94A59B2A063F4C00AB839C /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
+		EBBF2AE22A10C068005A3C1A /* libStaticLibraryTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLibraryTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBF2AE42A10C068005A3C1A /* StaticLibraryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibraryTest.h; sourceTree = "<group>"; };
+		EBBF2AE52A10C068005A3C1A /* StaticLibraryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibraryTest.m; sourceTree = "<group>"; };
+		EBBF2AEB2A10C096005A3C1A /* KGWStaticLibraryObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGWStaticLibraryObject.h; sourceTree = "<group>"; };
+		EBBF2AEC2A10C096005A3C1A /* KGWStaticLibraryObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWStaticLibraryObject.m; sourceTree = "<group>"; };
+		EBBF2AEE2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KGWStaticLibraryObject+CategoryTest.h"; sourceTree = "<group>"; };
+		EBBF2AEF2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KGWStaticLibraryObject+CategoryTest.m"; sourceTree = "<group>"; };
+		EBBF2AF52A10CA52005A3C1A /* KGWStaticLibraryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGWStaticLibraryObject.h; sourceTree = "<group>"; };
+		EBBF2AF62A10CA52005A3C1A /* KGWStaticLibraryObject+CategoryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KGWStaticLibraryObject+CategoryTest.h"; sourceTree = "<group>"; };
+		EBBF2AF72A10CA52005A3C1A /* StaticLibraryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibraryTest.h; sourceTree = "<group>"; };
+		EBBF2AF82A10CA52005A3C1A /* libStaticLibraryTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibraryTest.a; sourceTree = "<group>"; };
 		ED127CA41DF1508CD5EEEBBD /* Pods_TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA3D85A5A0DB1A43211BDF /* Pods-CoreAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimation.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimation/Pods-CoreAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		FD3062DFEA07849C558795E1 /* Pods-TestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK/Pods-TestSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +220,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBBF2ADF2A10C068005A3C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBF2AF92A10CA52005A3C1A /* libStaticLibraryTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -201,6 +239,7 @@
 				B92F1E5123E40A4B0054A9A6 /* CoreAnimationUITests */,
 				EB94A5982A040D6F00AB839C /* Products1 */,
 				EB10AB4D2A0409C600F33677 /* TestSDK */,
+				EBBF2AE32A10C068005A3C1A /* StaticLibraryTest */,
 				B92F1E2C23E40A490054A9A6 /* Products */,
 				D838E29D014EDAC0E88A3896 /* Pods */,
 				BE5B02C75C6B163CC8913F73 /* Frameworks */,
@@ -214,6 +253,7 @@
 				B92F1E4323E40A4B0054A9A6 /* CoreAnimationTests.xctest */,
 				B92F1E4E23E40A4B0054A9A6 /* CoreAnimationUITests.xctest */,
 				EB10AB4C2A0409C600F33677 /* TestSDK.framework */,
+				EBBF2AE22A10C068005A3C1A /* libStaticLibraryTest.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -367,9 +407,42 @@
 		EB94A5982A040D6F00AB839C /* Products1 */ = {
 			isa = PBXGroup;
 			children = (
+				EBBF2AF12A10C725005A3C1A /* TestLib */,
 				EB94A59B2A063F4C00AB839C /* TestSDK.framework */,
 			);
 			path = Products1;
+			sourceTree = "<group>";
+		};
+		EBBF2AE32A10C068005A3C1A /* StaticLibraryTest */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF2AE42A10C068005A3C1A /* StaticLibraryTest.h */,
+				EBBF2AE52A10C068005A3C1A /* StaticLibraryTest.m */,
+				EBBF2AEB2A10C096005A3C1A /* KGWStaticLibraryObject.h */,
+				EBBF2AEC2A10C096005A3C1A /* KGWStaticLibraryObject.m */,
+				EBBF2AEE2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.h */,
+				EBBF2AEF2A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.m */,
+			);
+			path = StaticLibraryTest;
+			sourceTree = "<group>";
+		};
+		EBBF2AF12A10C725005A3C1A /* TestLib */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF2AF42A10CA52005A3C1A /* include */,
+				EBBF2AF82A10CA52005A3C1A /* libStaticLibraryTest.a */,
+			);
+			path = TestLib;
+			sourceTree = "<group>";
+		};
+		EBBF2AF42A10CA52005A3C1A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF2AF52A10CA52005A3C1A /* KGWStaticLibraryObject.h */,
+				EBBF2AF62A10CA52005A3C1A /* KGWStaticLibraryObject+CategoryTest.h */,
+				EBBF2AF72A10CA52005A3C1A /* StaticLibraryTest.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +537,23 @@
 			productReference = EB10AB4C2A0409C600F33677 /* TestSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EBBF2AE12A10C068005A3C1A /* StaticLibraryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBF2AEA2A10C068005A3C1A /* Build configuration list for PBXNativeTarget "StaticLibraryTest" */;
+			buildPhases = (
+				EBBF2ADE2A10C068005A3C1A /* Sources */,
+				EBBF2ADF2A10C068005A3C1A /* Frameworks */,
+				EBBF2AE02A10C068005A3C1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticLibraryTest;
+			productName = StaticLibraryTest;
+			productReference = EBBF2AE22A10C068005A3C1A /* libStaticLibraryTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -488,6 +578,9 @@
 					EB10AB4B2A0409C600F33677 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					EBBF2AE12A10C068005A3C1A = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = B92F1E2623E40A490054A9A6 /* Build configuration list for PBXProject "CoreAnimation" */;
@@ -507,6 +600,7 @@
 				B92F1E4223E40A4B0054A9A6 /* CoreAnimationTests */,
 				B92F1E4D23E40A4B0054A9A6 /* CoreAnimationUITests */,
 				EB10AB4B2A0409C600F33677 /* TestSDK */,
+				EBBF2AE12A10C068005A3C1A /* StaticLibraryTest */,
 			);
 		};
 /* End PBXProject section */
@@ -662,6 +756,16 @@
 			files = (
 				EB3A97602A0FD5A50023D952 /* KGWPrintMyName+Test.m in Sources */,
 				EB10AB5B2A0409E900F33677 /* KGWPrintMyName.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBF2ADE2A10C068005A3C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBF2AED2A10C096005A3C1A /* KGWStaticLibraryObject.m in Sources */,
+				EBBF2AE62A10C068005A3C1A /* StaticLibraryTest.m in Sources */,
+				EBBF2AF02A10C0B1005A3C1A /* KGWStaticLibraryObject+CategoryTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,6 +1117,45 @@
 			};
 			name = Release;
 		};
+		EBBF2AE82A10C068005A3C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products1/TestLib",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBBF2AE92A10C068005A3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products1/TestLib",
+				);
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1057,6 +1200,15 @@
 			buildConfigurations = (
 				EB10AB552A0409C600F33677 /* Debug */,
 				EB10AB562A0409C600F33677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBF2AEA2A10C068005A3C1A /* Build configuration list for PBXNativeTarget "StaticLibraryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBF2AE82A10C068005A3C1A /* Debug */,
+				EBBF2AE92A10C068005A3C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
